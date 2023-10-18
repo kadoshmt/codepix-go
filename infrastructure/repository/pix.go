@@ -2,8 +2,9 @@ package repository
 
 import (
 	"fmt"
-	"github.com/kadoshmt/codepix-go/domain/model"
+
 	"github.com/jinzhu/gorm"
+	"github.com/kadoshmt/codepix/domain/model"
 )
 
 type PixKeyRepositoryDb struct {

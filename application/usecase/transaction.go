@@ -2,8 +2,9 @@ package usecase
 
 import (
 	"errors"
-	"github.com/kadoshmt/codepix-go/domain/model"
 	"log"
+
+	"github.com/kadoshmt/codepix/domain/model"
 )
 
 type TransactionUseCase struct {
